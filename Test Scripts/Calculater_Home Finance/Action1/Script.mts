@@ -1,7 +1,7 @@
 ﻿datatable.Import "C:\Users\Test\Desktop\UFT Record and Playback\Data Sheets\Calculator_Home finance.xlsx"
 Browser("Dukhan Bank").Page("Dukhan Bank").WebButton("Personal Online Banking").Click
 Browser("Dukhan Bank_2").Page("Dukhan Bank").Link("Calculator").Click @@ script infofile_;_ZIP::ssf2.xml_;_
-wait 8
+wait 9
 Browser("Dukhan Bank_2").Page("Dukhan Bank").Image("calculator").Click @@ script infofile_;_ZIP::ssf3.xml_;_
 Browser("Dukhan Bank_2").Page("Dukhan Bank").WebElement("Home Finance").Click @@ script infofile_;_ZIP::ssf4.xml_;_
 Browser("Dukhan Bank_2").Page("Dukhan Bank").WebElement("Non Qatari").Click @@ script infofile_;_ZIP::ssf5.xml_;_
